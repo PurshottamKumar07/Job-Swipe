@@ -1,0 +1,373 @@
+warning: in the working copy of 'scripts/llm_assistant.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'scripts/resume_builder.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'uv.lock', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/api/main.py b/api/main.py[m
+[1mindex eecda8f..b68da99 100644[m
+[1m--- a/api/main.py[m
+[1m+++ b/api/main.py[m
+[36m@@ -11,13 +11,18 @@[m [mRun:[m
+     python -m api.main[m
+ """[m
+ [m
+[32m+[m[32mfrom pathlib import Path[m
+ from fastapi import FastAPI[m
+ from fastapi.middleware.cors import CORSMiddleware[m
+[32m+[m[32mfrom fastapi.staticfiles import StaticFiles[m
+ from contextlib import asynccontextmanager[m
+ [m
+ from scripts.db import Database[m
+ from api.routes import crawl, jobs, stats, seeds, auto_apply, alerts[m
+ [m
+[32m+[m[32m_OUTPUT_DIR = Path(__file__).resolve().parent.parent / "generated_resumes"[m
+[32m+[m[32m_OUTPUT_DIR.mkdir(exist_ok=True)[m
+[32m+[m
+ [m
+ # ---------------------------------------------------------------------------[m
+ # Lifespan — open / close the database[m
+[36m@@ -61,6 +66,9 @@[m [mapp.include_router(seeds.router,  prefix="/api", tags=["Seeds"])[m
+ app.include_router(auto_apply.router, prefix="/api/auto-apply", tags=["AutoApply"])[m
+ app.include_router(alerts.router, prefix="/api", tags=["Alerts"])[m
+ [m
+[32m+[m[32m# Mount static resumes directory[m
+[32m+[m[32mapp.mount("/resumes", StaticFiles(directory=_OUTPUT_DIR), name="resumes")[m
+[32m+[m
+ [m
+ @app.get("/", tags=["Health"])[m
+ async def root():[m
+[1mdiff --git a/api/routes/auto_apply.py b/api/routes/auto_apply.py[m
+[1mindex ab0c75e..b990b9b 100644[m
+[1m--- a/api/routes/auto_apply.py[m
+[1m+++ b/api/routes/auto_apply.py[m
+[36m@@ -9,6 +9,7 @@[m [mimport json[m
+ import asyncio[m
+ from pathlib import Path[m
+ from fastapi import APIRouter, Depends, HTTPException, Query[m
+[32m+[m[32mfrom fastapi.responses import FileResponse[m
+ [m
+ from scripts.db import Database[m
+ from scripts.resume_builder import ResumeBuilder[m
+[36m@@ -21,12 +22,16 @@[m [mfrom api.schemas import ([m
+     AutoApplySessionResponse,[m
+     AutoApplyLogResponse,[m
+     ProfileUpdateRequest,[m
+[32m+[m[32m    TailorResumeResponse,[m
+[32m+[m[32m    GenerateResumeResponse,[m
+ )[m
+ [m
+ router = APIRouter()[m
+ [m
+ _REPO_ROOT = Path(__file__).resolve().parent.parent.parent[m
+ _PROFILE_PATH = _REPO_ROOT / "profile.json"[m
+[32m+[m[32m_OUTPUT_DIR = _REPO_ROOT / "generated_resumes"[m
+[32m+[m[32m_OUTPUT_DIR.mkdir(exist_ok=True)[m
+ [m
+ # Global active engine instance[m
+ _active_engine: AutoApplyEngine | None = None[m
+[36m@@ -99,6 +104,107 @@[m [masync def match_job_skills(job_id: int, db: Database = Depends(get_db)):[m
+     )[m
+ [m
+ [m
+[32m+[m[32m@router.post("/tailor/{job_id}", response_model=TailorResumeResponse)[m
+[32m+[m[32masync def tailor_resume_content(job_id: int, db: Database = Depends(get_db)):[m
+[32m+[m[32m    """[m
+[32m+[m[32m    Use Qwen2.5-3B-Instruct to craft tailored summary, experience bullets,[m
+[32m+[m[32m    and cover letter based on the target job requirements.[m
+[32m+[m[32m    """[m
+[32m+[m[32m    job = db.get_extracted_job_by_id(job_id)[m
+[32m+[m[32m    if not job:[m
+[32m+[m[32m        raise HTTPException(404, f"Job #{job_id} not found.")[m
+[32m+[m
+[32m+[m[32m    builder = ResumeBuilder(_PROFILE_PATH)[m
+[32m+[m[32m    title = job.get("title") or "Software Engineer"[m
+[32m+[m[32m    desc = job.get("description") or ""[m
+[32m+[m[32m    company = job.get("company") or "Company"[m
+[32m+[m
+[32m+[m[32m    match_data = builder.match_job(title, desc)[m
+[32m+[m[32m    matched_skills = match_data.get("matched_skills") or match_data.get("all_user_skills")[:6][m
+[32m+[m
+[32m+[m[32m    ai_data = await builder.tailor_with_ai([m
+[32m+[m[32m        job_title=title,[m
+[32m+[m[32m        company=company,[m
+[32m+[m[32m        job_description=desc,[m
+[32m+[m[32m        active_skills=matched_skills,[m
+[32m+[m[32m    )[m
+[32m+[m
+[32m+[m[32m    return TailorResumeResponse([m
+[32m+[m[32m        job_id=job_id,[m
+[32m+[m[32m        job_title=title,[m
+[32m+[m[32m        company=company,[m
+[32m+[m[32m        match_score=match_data["match_score"],[m
+[32m+[m[32m        matched_skills=match_data["matched_skills"],[m
+[32m+[m[32m        missing_skills=match_data["missing_skills"],[m
+[32m+[m[32m        tailored_summary=ai_data["summary"],[m
+[32m+[m[32m        tailored_experience=ai_data["experience"],[m
+[32m+[m[32m        cover_letter=ai_data["cover_letter"],[m
+[32m+[m[32m        model_used=builder.llm.model,[m
+[32m+[m[32m    )[m
+[32m+[m
+[32m+[m
+[32m+[m[32m@router.post("/generate-resume/{job_id}", response_model=GenerateResumeResponse)[m
+[32m+[m[32masync def generate_resume_document([m
+[32m+[m[32m    job_id: int,[m
+[32m+[m[32m    use_ai: bool = Query(True, description="Use Qwen2.5-3B-Instruct to tailor summary and bullets"),[m
+[32m+[m[32m    db: Database = Depends(get_db),[m
+[32m+[m[32m):[m
+[32m+[m[32m    """[m
+[32m+[m[32m    Generate tailored .tex, .html, and compile PDF resume for a specific job.[m
+[32m+[m[32m    Returns download URLs for the generated PDF and LaTeX files.[m
+[32m+[m[32m    """[m
+[32m+[m[32m    job = db.get_extracted_job_by_id(job_id)[m
+[32m+[m[32m    if not job:[m
+[32m+[m[32m        raise HTTPException(404, f"Job #{job_id} not found.")[m
+[32m+[m
+[32m+[m[32m    builder = ResumeBuilder(_PROFILE_PATH)[m
+[32m+[m[32m    title = job.get("title") or "Software Engineer"[m
+[32m+[m[32m    desc = job.get("description") or ""[m
+[32m+[m[32m    company = job.get("company") or "Company"[m
+[32m+[m
+[32m+[m[32m    match_data = builder.match_job(title, desc)[m
+[32m+[m[32m    matched_skills = match_data.get("matched_skills") or match_data.get("all_user_skills")[:6][m
+[32m+[m
+[32m+[m[32m    docs = await builder.generate_documents([m
+[32m+[m[32m        job_id=job_id,[m
+[32m+[m[32m        job_title=title,[m
+[32m+[m[32m        company=company,[m
+[32m+[m[32m        active_skills=matched_skills,[m
+[32m+[m[32m        selected_projects=match_data.get("recommended_projects"),[m
+[32m+[m[32m        job_description=desc,[m
+[32m+[m[32m        use_ai=use_ai,[m
+[32m+[m[32m    )[m
+[32m+[m
+[32m+[m[32m    pdf_filename = docs["pdf_filename"][m
+[32m+[m[32m    tex_filename = docs["tex_filename"][m
+[32m+[m
+[32m+[m[32m    return GenerateResumeResponse([m
+[32m+[m[32m        job_id=job_id,[m
+[32m+[m[32m        job_title=title,[m
+[32m+[m[32m        company=company,[m
+[32m+[m[32m        pdf_filename=pdf_filename,[m
+[32m+[m[32m        pdf_url=f"/api/auto-apply/resumes/{pdf_filename}",[m
+[32m+[m[32m        tex_filename=tex_filename,[m
+[32m+[m[32m        tex_url=f"/api/auto-apply/resumes/{tex_filename}",[m
+[32m+[m[32m        summary_used=docs["summary_used"],[m
+[32m+[m[32m        cover_letter=docs["cover_letter"],[m
+[32m+[m[32m    )[m
+[32m+[m
+[32m+[m
+[32m+[m[32m@router.get("/resumes/{filename}")[m
+[32m+[m[32masync def download_resume_document(filename: str):[m
+[32m+[m[32m    """Download or preview a generated PDF, LaTeX, or HTML resume."""[m
+[32m+[m[32m    # Prevent path traversal[m
+[32m+[m[32m    safe_name = Path(filename).name[m
+[32m+[m[32m    target_path = _OUTPUT_DIR / safe_name[m
+[32m+[m[32m    if not target_path.exists():[m
+[32m+[m[32m        raise HTTPException(404, f"File {safe_name} not found.")[m
+[32m+[m
+[32m+[m[32m    media_type = "application/pdf" if safe_name.endswith(".pdf") else "text/plain"[m
+[32m+[m[32m    return FileResponse(path=target_path, filename=safe_name, media_type=media_type)[m
+[32m+[m
+[32m+[m
+[32m+[m
+ # ---------------------------------------------------------------------------[m
+ # Session Control[m
+ # ---------------------------------------------------------------------------[m
+[1mdiff --git a/api/schemas.py b/api/schemas.py[m
+[1mindex 3c7bcc6..3ea6700 100644[m
+[1m--- a/api/schemas.py[m
+[1m+++ b/api/schemas.py[m
+[36m@@ -2,6 +2,7 @@[m
+ Pydantic schemas for API request / response models.[m
+ """[m
+ [m
+[32m+[m[32mfrom typing import Any[m
+ from pydantic import BaseModel, Field[m
+ [m
+ [m
+[36m@@ -228,6 +229,32 @@[m [mclass AutoApplyMatchResponse(BaseModel):[m
+     cover_letter_preview: str[m
+ [m
+ [m
+[32m+[m[32mclass TailorResumeResponse(BaseModel):[m
+[32m+[m[32m    job_id: int[m
+[32m+[m[32m    job_title: str[m
+[32m+[m[32m    company: str[m
+[32m+[m[32m    match_score: int[m
+[32m+[m[32m    matched_skills: list[str][m
+[32m+[m[32m    missing_skills: list[str][m
+[32m+[m[32m    tailored_summary: str[m
+[32m+[m[32m    tailored_experience: list[dict[str, Any]][m
+[32m+[m[32m    cover_letter: str[m
+[32m+[m[32m    model_used: str[m
+[32m+[m
+[32m+[m
+[32m+[m[32mclass GenerateResumeResponse(BaseModel):[m
+[32m+[m[32m    job_id: int[m
+[32m+[m[32m    job_title: str[m
+[32m+[m[32m    company: str[m
+[32m+[m[32m    pdf_filename: str[m
+[32m+[m[32m    pdf_url: str[m
+[32m+[m[32m    tex_filename: str[m
+[32m+[m[32m    tex_url: str[m
+[32m+[m[32m    summary_used: str[m
+[32m+[m[32m    cover_letter: str[m
+[32m+[m
+[32m+[m
+[32m+[m
+ class AutoApplySessionResponse(BaseModel):[m
+     id: int | None = None[m
+     status: str[m
+[1mdiff --git a/frontend/src/app/jobs/[id]/page.tsx b/frontend/src/app/jobs/[id]/page.tsx[m
+[1mindex e06c501..d80c9dc 100644[m
+[1m--- a/frontend/src/app/jobs/[id]/page.tsx[m
+[1m+++ b/frontend/src/app/jobs/[id]/page.tsx[m
+[36m@@ -5,7 +5,7 @@[m [mimport Link from "next/link";[m
+ import { useParams, useRouter } from "next/navigation";[m
+ import { useJob } from "@/lib/hooks";[m
+ import { formatSalary, timeAgo } from "@/lib/utils";[m
+[31m-import { startSingleJobApply } from "@/lib/api";[m
+[32m+[m[32mimport { startSingleJobApply, generateResumeDocument } from "@/lib/api";[m
+ import {[m
+   toggleSavedJob,[m
+   isJobSaved,[m
+[36m@@ -26,6 +26,9 @@[m [mimport {[m
+   Calendar,[m
+   Layers,[m
+   Zap,[m
+[32m+[m[32m  FileText,[m
+[32m+[m[32m  Download,[m
+[32m+[m[32m  Loader2,[m
+ } from "lucide-react";[m
+ [m
+ export default function JobDetailPage() {[m
+[36m@@ -44,6 +47,21 @@[m [mexport default function JobDetailPage() {[m
+   const [application, setApplication] = useState(() =>[m
+     isNaN(jobId) ? undefined : getApplicationByJobId(jobId)[m
+   );[m
+[32m+[m[32m  const [isGeneratingResume, setIsGeneratingResume] = useState(false);[m
+[32m+[m
+[32m+[m[32m  const handleDownloadResume = async () => {[m
+[32m+[m[32m    if (!job) return;[m
+[32m+[m[32m    setIsGeneratingResume(true);[m
+[32m+[m[32m    try {[m
+[32m+[m[32m      const data = await generateResumeDocument(job.id, true);[m
+[32m+[m[32m      const apiUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";[m
+[32m+[m[32m      window.open(`${apiUrl}${data.pdf_url}`, "_blank");[m
+[32m+[m[32m    } catch (err: any) {[m
+[32m+[m[32m      alert(err.message || "Failed to generate tailored resume with Qwen2.5");[m
+[32m+[m[32m    } finally {[m
+[32m+[m[32m      setIsGeneratingResume(false);[m
+[32m+[m[32m    }[m
+[32m+[m[32m  };[m
+ [m
+   if (isLoading) {[m
+     return ([m
+[36m@@ -336,6 +354,25 @@[m [mexport default function JobDetailPage() {[m
+               {isSaved ? "Saved" : "Save"}[m
+             </button>[m
+ [m
+[32m+[m[32m            <button[m
+[32m+[m[32m              onClick={handleDownloadResume}[m
+[32m+[m[32m              disabled={isGeneratingResume}[m
+[32m+[m[32m              className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl border border-purple-500/50 bg-purple-900/30 hover:bg-purple-800/40 text-purple-200 text-sm font-medium transition-all min-h-[44px] disabled:opacity-50"[m
+[32m+[m[32m              title="Tailor resume with Qwen2.5-3B-Instruct and download PDF"[m
+[32m+[m[32m            >[m
+[32m+[m[32m              {isGeneratingResume ? ([m
+[32m+[m[32m                <>[m
+[32m+[m[32m                  <Loader2 className="h-4 w-4 animate-spin text-purple-400" />[m
+[32m+[m[32m                  Generating...[m
+[32m+[m[32m                </>[m
+[32m+[m[32m              ) : ([m
+[32m+[m[32m                <>[m
+[32m+[m[32m                  <FileText className="h-4 w-4 text-purple-400" />[m
+[32m+[m[32m                  Tailored PDF[m
+[32m+[m[32m                </>[m
+[32m+[m[32m              )}[m
+[32m+[m[32m            </button>[m
+[32m+[m
+             <button[m
+               onClick={handleAutoApply}[m
+               className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white text-sm font-bold transition-all shadow-lg min-h-[44px]"[m
+[1mdiff --git a/frontend/src/lib/api.ts b/frontend/src/lib/api.ts[m
+[1mindex 90e8151..ea5b1bb 100644[m
+[1m--- a/frontend/src/lib/api.ts[m
+[1m+++ b/frontend/src/lib/api.ts[m
+[36m@@ -308,5 +308,37 @@[m [mexport function getAlertMatches(alertId: number, limit: number = 20) {[m
+   return request<ExtractedJobResponse[]>(`/api/alerts/${alertId}/matches?limit=${limit}`);[m
+ }[m
+ [m
+[32m+[m[32m// ── Qwen2.5-3B-Instruct Resume Maker ──────────────────────────────────────[m
+[32m+[m
+[32m+[m[32mexport function tailorResume(jobId: number) {[m
+[32m+[m[32m  return request<{[m
+[32m+[m[32m    job_id: number;[m
+[32m+[m[32m    job_title: string;[m
+[32m+[m[32m    company: string;[m
+[32m+[m[32m    match_score: number;[m
+[32m+[m[32m    matched_skills: string[];[m
+[32m+[m[32m    missing_skills: string[];[m
+[32m+[m[32m    tailored_summary: string;[m
+[32m+[m[32m    tailored_experience: any[];[m
+[32m+[m[32m    cover_letter: string;[m
+[32m+[m[32m    model_used: string;[m
+[32m+[m[32m  }>(`/api/auto-apply/tailor/${jobId}`, { method: "POST" });[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mexport function generateResumeDocument(jobId: number, useAi: boolean = true) {[m
+[32m+[m[32m  return request<{[m
+[32m+[m[32m    job_id: number;[m
+[32m+[m[32m    job_title: string;[m
+[32m+[m[32m    company: string;[m
+[32m+[m[32m    pdf_filename: string;[m
+[32m+[m[32m    pdf_url: string;[m
+[32m+[m[32m    tex_filename: string;[m
+[32m+[m[32m    tex_url: string;[m
+[32m+[m[32m    summary_used: string;[m
+[32m+[m[32m    cover_letter: string;[m
+[32m+[m[32m  }>(`/api/auto-apply/generate-resume/${jobId}?use_ai=${useAi}`, { method: "POST" });[m
+[32m+[m[32m}[m
+[41m+[m
+[41m+[m
+ [m
+ [m
+[1mdiff --git a/pyproject.toml b/pyproject.toml[m
+[1mindex 5f3dc7f..fb15299 100644[m
+[1m--- a/pyproject.toml[m
+[1m+++ b/pyproject.toml[m
+[36m@@ -12,4 +12,7 @@[m [mdependencies = [[m
+     "requests>=2.34.2",[m
+     "playwright>=1.49.0",[m
+     "uvicorn[standard]>=0.54.0",[m
+[32m+[m[32m    "httpx>=0.28.1",[m
+[32m+[m[32m    "pytest>=8.0.0",[m
+[32m+[m[32m    "pytest-asyncio>=0.23.0",[m
+ ][m
+[1mdiff --git a/scripts/jobspy_fetcher.py b/scripts/jobspy_fetcher.py[m
+[1mindex 25eba64..9786f53 100644[m
+[1m--- a/scripts/jobspy_fetcher.py[m
+[1m+++ b/scripts/jobspy_fetcher.py[m
+[36m@@ -28,7 +28,7 @@[m [mfrom scripts.db import Database[m
+ # All site names that JobSpy supports[m
+ JOBSPY_SITES = [[m
+     "linkedin", "indeed", "zip_recruiter", "glassdoor",[m
+[31m-    "google", "bayt", "naukri", "bdjobs", "hellowork",[m
+[32m+[m[32m    "google", "bayt", "naukri", "bdjobs", "hellowork", "seek",[m
+ ][m
+ [m
+ DEFAULT_SITES = ["linkedin", "indeed", "glassdoor"][m
+[1mdiff --git a/scripts/llm_assistant.py b/scripts/llm_assistant.py[m
+[1mindex 3f0d328..8849c7e 100644[m
+[1m--- a/scripts/llm_assistant.py[m
+[1m+++ b/scripts/llm_assistant.py[m
+[36m@@ -2,26 +2,38 @@[m
+ LLM Assistant Module[m
+ ====================[m
+ Provides AI assistance for screening questions, form filling decisions,[m
+[31m-and job context parsing using Gemini API or smart local fallback matching.[m
+[32m+[m[32mand tailored resume generation using Hugging Face (Qwen2.5-3B-Instruct)[m
+[32m+[m[32mwith smart local fallback heuristics and optional Gemini support.[m
+ """[m
+ [m
+ import os[m
+ import re[m
+ import json[m
+ from pathlib import Pat

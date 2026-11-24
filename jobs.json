@@ -1,0 +1,212 @@
+{
+  "crawl_metadata": {
+    "seed_urls": [
+      "https://github.com/about",
+      "https://stripe.com",
+      "https://remoteok.com"
+    ],
+    "max_pages": 50,
+    "pages_crawled": 50,
+    "links_inspected": 6734,
+    "errors": 0,
+    "timestamp": "2026-10-18T09:32:41.877556+00:00"
+  },
+  "job_links": [
+    {
+      "url": "https://github.careers/",
+      "anchor_text": "Careers",
+      "found_on": "https://github.com/about",
+      "match_reason": "anchor_text:Careers",
+      "discovered_at": "2026-10-18T09:31:59.549285+00:00"
+    },
+    {
+      "url": "https://github.careers",
+      "anchor_text": "Careers",
+      "found_on": "https://github.com/about",
+      "match_reason": "anchor_text:Careers",
+      "discovered_at": "2026-10-18T09:31:59.552549+00:00"
+    },
+    {
+      "url": "https://www.linkedin.com/company/github",
+      "anchor_text": "GitHub on LinkedIn",
+      "found_on": "https://github.com/about",
+      "match_reason": "job_board:linkedin.com",
+      "discovered_at": "2026-10-18T09:31:59.553601+00:00"
+    },
+    {
+      "url": "https://stripe.com/in/startups#application",
+      "anchor_text": "Stripe Startups programme. Access financial benefits, a focused community, and expert resources to help you grow your business. Apply now",
+      "found_on": "https://stripe.com",
+      "match_reason": "anchor_text:Stripe Startups programme. Access financial benefits, a focu",
+      "discovered_at": "2026-10-18T09:32:00.997765+00:00"
+    },
+    {
+      "url": "https://stripe.com/in/careers",
+      "anchor_text": "Careers",
+      "found_on": "https://stripe.com",
+      "match_reason": "path_keyword:careers",
+      "discovered_at": "2026-10-18T09:32:01.008686+00:00"
+    },
+    {
+      "url": "https://remoteok.com/hire-remotely?discount_code=044025dc9012ce2da45113cb22154ee0&ref=bottombar",
+      "anchor_text": "Post a Job →",
+      "found_on": "https://remoteok.com",
+      "match_reason": "anchor_text:Post a Job →",
+      "discovered_at": "2026-10-18T09:32:02.313781+00:00"
+    },
+    {
+      "url": "https://remoteok.com/sign-up",
+      "anchor_text": "👩‍💻 Join Remote OK 👋 Log in General Frontpage 🏝 Remote jobs 🚨 Post a job ⭐️ Go premium 📄 Build your resume 🪶 Health insurance for nomads Top jobs 🌎 Distributed team 💼 Executive jobs 🎧 Customer Support",
+      "found_on": "https://remoteok.com",
+      "match_reason": "anchor_text:👩‍💻 Join Remote OK 👋 Log in General Frontpage 🏝 Remote jobs ",
+      "discovered_at": "2026-10-18T09:32:02.317116+00:00"
+    },
+    {
+      "url": "https://remoteok.com/remote-jobs",
+      "anchor_text": "🏝 Remote jobs",
+      "found_on": "https://remoteok.com",
+      "match_reason": "anchor_text:🏝 Remote jobs",
+      "discovered_at": "2026-10-18T09:32:02.318330+00:00"
+    },
+    {
+      "url": "https://remoteok.com/hire-remotely?discount_code=044025dc9012ce2da45113cb22154ee0&ref=nav",
+      "anchor_text": "🚨 Post a job",
+      "found_on": "https://remoteok.com",
+      "match_reason": "anchor_text:🚨 Post a job",
+      "discovered_at": "2026-10-18T09:32:02.318842+00:00"
+    },
+    {
+      "url": "https://remoteok.com/remote-exec-jobs",
+      "anchor_text": "💼 Executive jobs",
+      "found_on": "https://remoteok.com",
+      "match_reason": "anchor_text:💼 Executive jobs",
+      "discovered_at": "2026-10-18T09:32:02.319782+00:00"
+    },
+    {
+      "url": "https://remoteok.com/remote-customer-support-jobs",
+      "anchor_text": "🎧 Customer Support jobs",
+      "found_on": "https://remoteok.com",
+      "match_reason": "anchor_text:🎧 Customer Support jobs",
+      "discovered_at": "2026-10-18T09:32:02.320196+00:00"
+    },
+    {
+      "url": "https://remoteok.com/remote-marketing-jobs",
+      "anchor_text": "🚥 Marketing jobs",
+      "found_on": "https://remoteok.com",
+      "match_reason": "anchor_text:🚥 Marketing jobs",
+      "discovered_at": "2026-10-18T09:32:02.320515+00:00"
+    },
+    {
+      "url": "https://remoteok.com/remote-ops-jobs",
+      "anchor_text": "♾️ Ops jobs",
+      "found_on": "https://remoteok.com",
+      "match_reason": "anchor_text:♾️ Ops jobs",
+      "discovered_at": "2026-10-18T09:32:02.320871+00:00"
+    },
+    {
+      "url": "https://remoteok.com/remote-education-jobs",
+      "anchor_text": "👨‍🏫 Education jobs",
+      "found_on": "https://remoteok.com",
+      "match_reason": "anchor_text:👨‍🏫 Education jobs",
+      "discovered_at": "2026-10-18T09:32:02.321370+00:00"
+    },
+    {
+      "url": "https://remoteok.com/remote-medical-jobs",
+      "anchor_text": "🚑 Medical jobs",
+      "found_on": "https://remoteok.com",
+      "match_reason": "anchor_text:🚑 Medical jobs",
+      "discovered_at": "2026-10-18T09:32:02.321764+00:00"
+    },
+    {
+      "url": "https://remoteok.com/remote-finance-jobs",
+      "anchor_text": "💰 Finance jobs",
+      "found_on": "https://remoteok.com",
+      "match_reason": "anchor_text:💰 Finance jobs",
+      "discovered_at": "2026-10-18T09:32:02.322157+00:00"
+    },
+    {
+      "url": "https://remoteok.com/remote-engineer-jobs",
+      "anchor_text": "🤓 Engineer jobs",
+      "found_on": "https://remoteok.com",
+      "match_reason": "anchor_text:🤓 Engineer jobs",
+      "discovered_at": "2026-10-18T09:32:02.322490+00:00"
+    },
+    {
+      "url": "https://remoteok.com/hire-remotely",
+      "anchor_text": "🚨 Post a remote job",
+      "found_on": "https://remoteok.com",
+      "match_reason": "anchor_text:🚨 Post a remote job",
+      "discovered_at": "2026-10-18T09:32:02.322916+00:00"
+    },
+    {
+      "url": "https://remoteok.com/buy-bundle",
+      "anchor_text": "📦 Buy a job bundle",
+      "found_on": "https://remoteok.com",
+      "match_reason": "anchor_text:📦 Buy a job bundle",
+      "discovered_at": "2026-10-18T09:32:02.323313+00:00"
+    },
+    {
+      "url": "https://www.producthunt.com/posts/remote-ok-jobs-api",
+      "anchor_text": "🛠 Remote Jobs API",
+      "found_on": "https://remoteok.com",
+      "match_reason": "anchor_text:🛠 Remote Jobs API",
+      "discovered_at": "2026-10-18T09:32:02.323878+00:00"
+    },
+    {
+      "url": "https://remoteok.com/remote-work-statistics#salary",
+      "anchor_text": "💰 Highest paying remote jobs",
+      "found_on": "https://remoteok.com",
+      "match_reason": "anchor_text:💰 Highest paying remote jobs",
+      "discovered_at": "2026-10-18T09:32:02.324896+00:00"
+    },
+    {
+      "url": "https://remoteok.com/hire-remotely?discount_code=044025dc9012ce2da45113cb22154ee0&ref=top",
+      "anchor_text": "Post a job →",
+      "found_on": "https://remoteok.com",
+      "match_reason": "anchor_text:Post a job →",
+      "discovered_at": "2026-10-18T09:32:02.325405+00:00"
+    },
+    {
+      "url": "https://remoteok.com/hire-remotely?discount_code=044025dc9012ce2da45113cb22154ee0&ref=center",
+      "anchor_text": "Post a remote job →",
+      "found_on": "https://remoteok.com",
+      "match_reason": "anchor_text:Post a remote job →",
+      "discovered_at": "2026-10-18T09:32:02.325789+00:00"
+    },
+    {
+      "url": "https://remoteok.com/premium",
+      "anchor_text": "Unlock your remote career potential with Remote OK Premium Get exclusive access and be the first to apply to 100,000+ remote jobs from 10,000+ top companies and land your dream remote position! ★★★★★ ",
+      "found_on": "https://remoteok.com",
+      "match_reason": "anchor_text:Unlock your remote career potential with Remote OK Premium G",
+      "discovered_at": "2026-10-18T09:32:02.326177+00:00"
+    },
+    {
+      "url": "https://github.blog/developer-skills/career-growth/",
+      "anchor_text": "Career growth",
+      "found_on": "https://github.blog",
+      "match_reason": "anchor_text:Career growth",
+      "discovered_at": "2026-10-18T09:32:14.521299+00:00"
+    },
+    {
+      "url": "https://github.com/about/careers",
+      "anchor_text": "Careers",
+      "found_on": "https://github.blog",
+      "match_reason": "path_keyword:careers",
+      "discovered_at": "2026-10-18T09:32:14.537641+00:00"
+    },
+    {
+      "url": "https://github.com/orgs/community/discussions?discussions_q=is%3Aopen+label%3A%22Schedule+%26+Cron+Jobs%22",
+      "anchor_text": "Schedule & Cron Jobs",
+      "found_on": "https://github.com/orgs/community/discussions",
+      "match_reason": "anchor_text:Schedule & Cron Jobs",
+      "discovered_at": "2026-10-18T09:32:41.176238+00:00"
+    },
+    {
+      "url": "https://github.com/orgs/community/discussions/210572",
+      "anchor_text": "Read-only diagnosis: Actions startup_failure, zero jobs and missing policy fields",
+      "found_on": "https://github.com/orgs/community/discussions",
+      "match_reason": "anchor_text:Read-only diagnosis: Actions startup_failure, zero jobs and ",
+      "discovered_at": "2026-10-18T09:32:41.179419+00:00"
+    }
+  ]
+}

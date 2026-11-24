@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+/* ── Dark purple theme variables ────────────────────────────────────────── */
+:root {
+  --background: #0f0a1e;
+  --foreground: #f0f0f5;
+  --card: #1a1130;
+  --card-foreground: #f0f0f5;
+  --popover: #1a1130;
+  --popover-foreground: #f0f0f5;
+  --primary: #7c3aed;
+  --primary-foreground: #ffffff;
+  --secondary: #2a1f45;
+  --secondary-foreground: #f0f0f5;
+  --muted: #2a1f45;
+  --muted-foreground: #9ca3af;
+  --accent: #7c3aed;
+  --accent-foreground: #ffffff;
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+  --border: #3b2d5e;
+  --input: #2a1f45;
+  --ring: #7c3aed;
+  --radius: 0.75rem;
+}
+
+* {
+  border-color: var(--border);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+/* ── Scrollbar styling ──────────────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #3b2d5e;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7c3aed;
+}
+
+/* ── Touch-friendly overrides ───────────────────────────────────────────── */
+@media (pointer: coarse) {
+  button,
+  a,
+  [role="button"] {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* ── Reduced motion ─────────────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

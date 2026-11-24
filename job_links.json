@@ -1,0 +1,4235 @@
+{
+  "crawl_metadata": {
+    "seed_urls": [
+      "https://wellfound.com/"
+    ],
+    "max_pages": 30,
+    "pages_crawled": 30,
+    "links_inspected": 1764,
+    "errors": 0,
+    "timestamp": "2026-11-10T17:47:28.534021+00:00"
+  },
+  "job_links": [
+    {
+      "url": "https://wellfound.com/recruit/overview",
+      "anchor_text": "For companies",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.801845+00:00"
+    },
+    {
+      "url": "https://wellfound.com/candidates/overview",
+      "anchor_text": "For job seekers",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.807356+00:00"
+    },
+    {
+      "url": "https://wellfound.com/onboarding/recruit",
+      "anchor_text": "I'm looking to hire",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.818056+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs",
+      "anchor_text": "For candidates Find your next job. Apply directly to founders and hiring managers at 27,000+ startups building what's next. Browse jobs → Matched to you · today Senior Backend Engineer Chime · NYC · $",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.823677+00:00"
+    },
+    {
+      "url": "https://wellfound.com/recruit/all-features/autopilot",
+      "anchor_text": "Managed recruiting",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.833199+00:00"
+    },
+    {
+      "url": "https://wellfound.com/remote",
+      "anchor_text": "Remote jobs",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.836720+00:00"
+    },
+    {
+      "url": "https://wellfound.com/candidates/remote",
+      "anchor_text": "Remote work guide",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.839622+00:00"
+    },
+    {
+      "url": "https://wellfound.com/candidates/featured",
+      "anchor_text": "Get discovered",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.843680+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data",
+      "anchor_text": "Salary calculator",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.846873+00:00"
+    },
+    {
+      "url": "https://wellfound.com/recruit/customers",
+      "anchor_text": "Customer stories",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.851613+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/wellfound",
+      "anchor_text": "Careers",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.854487+00:00"
+    },
+    {
+      "url": "https://wellfound.com/cdn-cgi/l/email-protection#bfcbded3dad1cbffc8dad3d3d9d0cad1db91dcd0d2",
+      "anchor_text": "Contact",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.857403+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/software-engineer",
+      "anchor_text": "Software Engineer Jobs",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.861012+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/product-manager",
+      "anchor_text": "Product Manager Jobs",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.864683+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/product-designer",
+      "anchor_text": "Product Designer Jobs",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.868208+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/data-analyst",
+      "anchor_text": "Data Analyst Jobs",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.871761+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/ui-ux-designer",
+      "anchor_text": "UI/UX Designer Jobs",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.875840+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/graphic-designer",
+      "anchor_text": "Graphic Designer Jobs",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.879058+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/operations-manager",
+      "anchor_text": "Operations Manager Jobs",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.882312+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/growth-marketer",
+      "anchor_text": "Growth Marketer Jobs",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.887643+00:00"
+    },
+    {
+      "url": "https://wellfound.com/browse/tech-jobs",
+      "anchor_text": "More jobs by role →",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.892029+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/r/software-engineer",
+      "anchor_text": "Remote Software Engineer Jobs",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.894904+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/r/product-manager",
+      "anchor_text": "Remote Product Manager Jobs",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.900037+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/r/product-designer",
+      "anchor_text": "Remote Product Designer Jobs",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.903093+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/r/data-analyst",
+      "anchor_text": "Remote Data Analyst Jobs",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.906436+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/r/ui-ux-designer",
+      "anchor_text": "Remote UI/UX Designer Jobs",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.910495+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/r/graphic-designer",
+      "anchor_text": "Remote Graphic Designer Jobs",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.913943+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/r/operations-manager",
+      "anchor_text": "Remote Operations Manager Jobs",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.916964+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/r/growth-marketer",
+      "anchor_text": "Remote Growth Marketer Jobs",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.919778+00:00"
+    },
+    {
+      "url": "https://wellfound.com/location/san-francisco",
+      "anchor_text": "Jobs in San Francisco",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.922883+00:00"
+    },
+    {
+      "url": "https://wellfound.com/location/new-york",
+      "anchor_text": "Jobs in New York City",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.925378+00:00"
+    },
+    {
+      "url": "https://wellfound.com/location/los-angeles",
+      "anchor_text": "Jobs in Los Angeles",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.929440+00:00"
+    },
+    {
+      "url": "https://wellfound.com/location/boston",
+      "anchor_text": "Jobs in Boston",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.932568+00:00"
+    },
+    {
+      "url": "https://wellfound.com/location/seattle",
+      "anchor_text": "Jobs in Seattle",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.935603+00:00"
+    },
+    {
+      "url": "https://wellfound.com/location/austin",
+      "anchor_text": "Jobs in Austin",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.938262+00:00"
+    },
+    {
+      "url": "https://wellfound.com/location/chicago",
+      "anchor_text": "Jobs in Chicago",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.942569+00:00"
+    },
+    {
+      "url": "https://wellfound.com/location/denver",
+      "anchor_text": "Jobs in Denver",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.950343+00:00"
+    },
+    {
+      "url": "https://wellfound.com/browse/tech-job-locations",
+      "anchor_text": "More locations →",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.954179+00:00"
+    },
+    {
+      "url": "https://wellfound.com/job-collections/junior-software-engineer-jobs",
+      "anchor_text": "Junior software engineer jobs",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.956914+00:00"
+    },
+    {
+      "url": "https://wellfound.com/job-collections/companies-that-hire-coding-bootcamp-graduates",
+      "anchor_text": "Jobs for bootcamp grads",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.959537+00:00"
+    },
+    {
+      "url": "https://wellfound.com/job-collections",
+      "anchor_text": "More job collections →",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.962006+00:00"
+    },
+    {
+      "url": "https://wellfound.com/browse/remote-tech-jobs",
+      "anchor_text": "Remote tech jobs",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.965030+00:00"
+    },
+    {
+      "url": "https://wellfound.com/browse/tech-startups",
+      "anchor_text": "Tech startups",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.968231+00:00"
+    },
+    {
+      "url": "https://wellfound.com/browse/tech-hubs",
+      "anchor_text": "Tech hubs",
+      "found_on": "https://wellfound.com/",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:18.971127+00:00"
+    },
+    {
+      "url": "https://wellfound.com/cdn-cgi/l/email-protection#7f0b1e131a110b3f081a131319100a111b511c1012",
+      "anchor_text": "Contact",
+      "found_on": "https://wellfound.com/recruit/overview",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:19.128158+00:00"
+    },
+    {
+      "url": "https://wellfound.com/cdn-cgi/l/email-protection#add9ccc1c8c3d9eddac8c1c1cbc2d8c3c983cec2c0",
+      "anchor_text": "Contact",
+      "found_on": "https://wellfound.com/candidates/overview",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:19.341188+00:00"
+    },
+    {
+      "url": "https://wellfound.com/password/new",
+      "anchor_text": "Forgot password?",
+      "found_on": "https://wellfound.com/login",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.201284+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/miprep-ai",
+      "anchor_text": "MiPrep AI",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.733599+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/miprep-ai/jobs",
+      "anchor_text": "30 open positions",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.738073+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/isfy",
+      "anchor_text": "ISFY",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.741958+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/isfy/jobs",
+      "anchor_text": "13 open positions",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.745157+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/sardine-1",
+      "anchor_text": "Sardine",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.750109+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/sardine-1/jobs",
+      "anchor_text": "39 open positions",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.753936+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/bask-health",
+      "anchor_text": "Bask Health",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.757152+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/bask-health/jobs",
+      "anchor_text": "26 open positions",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.760050+00:00"
+    },
+    {
+      "url": "https://wellfound.com/location/united-states",
+      "anchor_text": "View all jobs",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.764332+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/fort-robotics-3",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.769424+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5034705-embedded-software-engineer-ii",
+      "anchor_text": "Embedded Software Engineer II",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.774045+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/brain-fm",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.777758+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/3478424-performance-creative-producer",
+      "anchor_text": "Performance Creative Producer",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.781137+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/blueprint-advertising-machine",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.785875+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4319018-sales-development-representative",
+      "anchor_text": "Sales Development Representative",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.789866+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/reachdesk",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.793784+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5034629-business-development-representative",
+      "anchor_text": "Business Development Representative",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.797862+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/l/software-engineer/united-states",
+      "anchor_text": "View all engineering jobs",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.801713+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/qba-2",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.805128+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5034718-red-hat-openshift-platform-engineer",
+      "anchor_text": "Red Hat OpenShift Platform Engineer| USC| Washington DC| Federal",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.808130+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/checkr",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.811812+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5034575-senior-software-engineer-ruby-rails-mvr",
+      "anchor_text": "Senior Software Engineer (Ruby/Rails), MVR",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.817081+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/geniexdev",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.821075+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4791894-senior-ai-developer-contract-role-with-opportunity-for-full-time",
+      "anchor_text": "Senior AI Developer - Contract Role with Opportunity for Full-Time",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.824903+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/l/product-manager/united-states",
+      "anchor_text": "View all product jobs",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.828546+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/zyaku",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.831880+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5031262-ai-ml-engineer-clone",
+      "anchor_text": "Product Manager",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.836395+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/jerry-ai-1",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.840475+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5027521-product-manager-2x-yc-founder-mentorship",
+      "anchor_text": "Product Manager (2x YC founder mentorship)",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.843687+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/eliseai-1",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.849185+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5027504-senior-product-manager-housing",
+      "anchor_text": "Senior Product Manager | Housing",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.853310+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/workshop-ventures-1",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.857171+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5027482-technical-product-manager-pedagogy-ai-quality",
+      "anchor_text": "Technical Product Manager, Pedagogy & AI Quality",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.891942+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/collinear-ai",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.898404+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5026929-mts-product",
+      "anchor_text": "MTS - Product",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.904522+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/l/designer/united-states",
+      "anchor_text": "View all design jobs",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.908217+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/weave-26",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.912609+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4970067-founding-filmmaker",
+      "anchor_text": "Founding Filmmaker",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.917041+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/methodfi",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.921466+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4965848-design-engineer",
+      "anchor_text": "Design Engineer",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.925480+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/design-shifu-1",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.928535+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4895709-motion-designer-brazil-latam",
+      "anchor_text": "Motion Designer (Brazil/LATAM)",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.931769+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/jack-72",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.935249+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4869765-founding-growth-designer",
+      "anchor_text": "Founding Growth Designer",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.938568+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4826631-sr-creative-producer",
+      "anchor_text": "Sr. Creative Producer",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.941978+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/l/data-engineer/united-states",
+      "anchor_text": "View all data and analytics jobs",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.944946+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/true-path-leads-1",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.948421+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5026985-senior-data-engineer",
+      "anchor_text": "Senior Data Engineer",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.952202+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5008640-lead-data-architect",
+      "anchor_text": "Lead Data Architect",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.956551+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/stuut-1",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.959998+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/3834594-data-engineer",
+      "anchor_text": "Data Engineer",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.963330+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/sftwbtq",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.967016+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4126128-junior-data-engineer",
+      "anchor_text": "Junior Data Engineer",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.970940+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/lifecyclex",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.976103+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4962678-senior-solutions-architect-cdp-data-architecture-customer-io",
+      "anchor_text": "Senior Solutions Architect (CDP / Data Architecture / Customer.io)",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.979167+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/l/sales/united-states",
+      "anchor_text": "View all sales jobs",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.982920+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/lineaum",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.987899+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5027387-private-jet-charter-sales-broker-sought-for-ai-powered-private-aviation-marketplace",
+      "anchor_text": "Private Jet Charter Sales Broker sought for AI-powered private aviation marketplace",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.993266+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/composable-analytics",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:20.996931+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/3714417-field-solutions-associate-on-site-discovery-solution-sales",
+      "anchor_text": "Field Solutions Associate (On-Site Discovery & Solution Sales)",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.000562+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/avante-5",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.006079+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5015993-solutions-engineer",
+      "anchor_text": "Solutions Engineer",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.010035+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/health-hue-digital",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.014350+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5015968-us-sales-representative",
+      "anchor_text": "US Sales Representative",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.018647+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/ambient-ai-1",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.022773+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5008745-sales-engineer",
+      "anchor_text": "Sales Engineer",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.025974+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/l/marketing/united-states",
+      "anchor_text": "View all marketing jobs",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.030662+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5034712-creative-strategist",
+      "anchor_text": "Creative Strategist",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.034762+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/tunelab-technologies",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.038297+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5027288-event-marketing-lead",
+      "anchor_text": "Event Marketing Lead",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.042650+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/wrestle-gears",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.045640+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5026952-digital-marketing-specialist",
+      "anchor_text": "Digital Marketing Specialist",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.050058+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/topfoxx-4",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.054081+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5026918-head-of-growth-marketing-e-commerce-equity-track",
+      "anchor_text": "Head of Growth Marketing, E-Commerce (Equity Track)",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.057375+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/rdi-foundation",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.060441+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5016003-marketing-partnerships-manager-application-form",
+      "anchor_text": "Marketing & Partnerships Manager Application Form",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.065274+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/l/operations-manager/united-states",
+      "anchor_text": "View all operations jobs",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.070464+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5034637-sourcing-manager-promotional-merchandise",
+      "anchor_text": "Sourcing Manager (Promotional Merchandise)",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.074430+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5031263-ai-ml-engineer-clone",
+      "anchor_text": "Trust and Safety Lead",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.078607+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/with-luminary",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.084363+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5027469-revenue-operations-manager",
+      "anchor_text": "Revenue Operations Manager",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.088479+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/siro-ai",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.092386+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5008737-workplace-event-operations-manager",
+      "anchor_text": "Workplace & Event Operations Manager",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.096162+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/citizenapp",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.099869+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5008697-finance-and-business-operations-manager",
+      "anchor_text": "Finance and Business Operations Manager",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.103887+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/l/recruiter/united-states",
+      "anchor_text": "View all hr and recruiting jobs",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.106864+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/lawnstarter",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.110580+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5027435-senior-recruiter-remote",
+      "anchor_text": "Senior Recruiter (Remote)",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.118165+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/ivo-https-www-ivo-ai",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.121638+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5027325-talent-partner",
+      "anchor_text": "Talent Partner",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.124769+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/formance-1",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.128745+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5008791-founding-recruiter-gtm",
+      "anchor_text": "Founding Recruiter, GTM",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.131997+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/pulley-7",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.135661+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/3277723-senior-recruiter",
+      "anchor_text": "Senior Recruiter",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.140337+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/tabs-8",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.143638+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/3421052-senior-technical-talent-acquisition-partner",
+      "anchor_text": "Senior Technical Talent Acquisition Partner",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.147372+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/l/finance/united-states",
+      "anchor_text": "View all finance / legal jobs",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.151122+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5034708-vp-accounting",
+      "anchor_text": "VP, Accounting",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.154455+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/triumph-arcade",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.158403+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5034659-senior-manager-internal-controls-sox-readiness",
+      "anchor_text": "Senior Manager, Internal Controls & SOX Readiness",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.162384+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5034650-controller",
+      "anchor_text": "Controller",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.165969+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/sydecar-2",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.169458+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/3359161-senior-fund-accountant",
+      "anchor_text": "Senior Fund Accountant",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.173515+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/traba-work",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.177220+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5027477-strategic-finance-lead",
+      "anchor_text": "Strategic Finance Lead",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.180973+00:00"
+    },
+    {
+      "url": "https://wellfound.com/job-collections/20-companies-building-our-remote-first-future",
+      "anchor_text": "Remote First Future Jobs",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.186522+00:00"
+    },
+    {
+      "url": "https://wellfound.com/job-collections/x-crypto-startups-to-watch-out-for-in-2022",
+      "anchor_text": "Crypto Startups To Watch Out For",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.190566+00:00"
+    },
+    {
+      "url": "https://wellfound.com/job-collections/hot-blockchain-startups-that-are-hiring",
+      "anchor_text": "Blockchain Startups That Are Hiring",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.194327+00:00"
+    },
+    {
+      "url": "https://wellfound.com/job-collections/6-companies-hiring-top-tech-talent-amidst-2022-layoffs",
+      "anchor_text": "Companies Hiring Amidst Layoffs",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.197916+00:00"
+    },
+    {
+      "url": "https://wellfound.com/job-collections/50-hot-consumer-fintech-startups",
+      "anchor_text": "Hot Consumer Fintech Startups",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.203690+00:00"
+    },
+    {
+      "url": "https://wellfound.com/job-collections/yc-startups-that-are-aggressively-hiring",
+      "anchor_text": "Y Combinator Startup Jobs",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.207296+00:00"
+    },
+    {
+      "url": "https://wellfound.com/job-collections/fastest-growing-startups-in-san-francisco-hiring-now",
+      "anchor_text": "Startup Jobs in Bay Area",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.210731+00:00"
+    },
+    {
+      "url": "https://wellfound.com/job-collections/12-women-led-startups-expanding-their-remote-teams-in-2022",
+      "anchor_text": "Top Women-Led Startups",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.214365+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/r/sales-manager",
+      "anchor_text": "Remote Sales Manager Jobs",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.221310+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/r/financial-analyst",
+      "anchor_text": "Remote Financial Analyst Jobs",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.224202+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/r/hr-manager",
+      "anchor_text": "Remote HR Manager Jobs",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.227773+00:00"
+    },
+    {
+      "url": "https://wellfound.com/location/district-of-columbia",
+      "anchor_text": "Jobs in Washington DC",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.231578+00:00"
+    },
+    {
+      "url": "https://wellfound.com/location/india",
+      "anchor_text": "Jobs in India",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.236187+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/sales-manager",
+      "anchor_text": "Sales Manager Jobs",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.240635+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/financial-analyst",
+      "anchor_text": "Financial Analyst Jobs",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.243812+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/hr-manager",
+      "anchor_text": "HR Manager Jobs",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.248872+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/l/software-engineer/san-francisco",
+      "anchor_text": "Software Engineer Jobs in San Francisco",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.252727+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/l/software-engineer/new-york",
+      "anchor_text": "Software Engineer Jobs in New York City",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.256548+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/l/software-engineer/los-angeles",
+      "anchor_text": "Software Engineer Jobs in Los Angeles",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.260015+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/l/product-manager/san-francisco",
+      "anchor_text": "Product Manager Jobs in San Francisco",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.263696+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/l/product-manager/new-york",
+      "anchor_text": "Product Manager Jobs in New York City",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.268857+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/l/product-manager/los-angeles",
+      "anchor_text": "Product Manager Jobs in Los Angeles",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.272672+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/l/frontend-engineer/san-francisco",
+      "anchor_text": "Frontend Developer Jobs in San Francisco",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.275652+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/l/frontend-engineer/new-york",
+      "anchor_text": "Frontend Developer Jobs in New York City",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.281528+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/l/frontend-engineer/los-angeles",
+      "anchor_text": "Frontend Developer Jobs in Los Angeles",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.285842+00:00"
+    },
+    {
+      "url": "https://wellfound.com/web3",
+      "anchor_text": "Web3 Jobs",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.290235+00:00"
+    },
+    {
+      "url": "https://wellfound.com/recruit/products/recruit-pro",
+      "anchor_text": "Recruit Pro",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.294507+00:00"
+    },
+    {
+      "url": "https://wellfound.com/recruit/products/curated",
+      "anchor_text": "Curated",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.298698+00:00"
+    },
+    {
+      "url": "https://wellfound.com/recruit/products/recruiter-cloud",
+      "anchor_text": "Wellfound:ai",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.302514+00:00"
+    },
+    {
+      "url": "https://wellfound.com/browse/tech-industries",
+      "anchor_text": "Industries",
+      "found_on": "https://wellfound.com/jobs",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.307376+00:00"
+    },
+    {
+      "url": "https://reach.wellfound.com/sign_up",
+      "anchor_text": "Sign up",
+      "found_on": "https://reach.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.425767+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/article/1221-connect-wellfound-reach-to-your-ai-assistant",
+      "anchor_text": "Connect →",
+      "found_on": "https://reach.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.431370+00:00"
+    },
+    {
+      "url": "https://wellfound.com/blog/careers",
+      "anchor_text": "Careers",
+      "found_on": "https://wellfound.com/blog",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.473316+00:00"
+    },
+    {
+      "url": "https://wellfound.com/recruit/products/wellfound-ai-autopilot",
+      "anchor_text": "Managed recruiting",
+      "found_on": "https://wellfound.com/blog",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.483832+00:00"
+    },
+    {
+      "url": "https://wellfound.com/cdn-cgi/l/email-protection#3246535e575c467245575e5e545d475c561c515d5f",
+      "anchor_text": "Contact",
+      "found_on": "https://wellfound.com/blog",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:21.487433+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/article/717-what-is-a-job-promotion-and-how-do-we-use-one",
+      "anchor_text": "Learn more →",
+      "found_on": "https://wellfound.com/recruit/all-features/post-a-job",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:22.079031+00:00"
+    },
+    {
+      "url": "https://wellfound.com/cdn-cgi/l/email-protection#2d594c414843596d5a4841414b42584349034e4240",
+      "anchor_text": "Contact",
+      "found_on": "https://wellfound.com/recruit/all-features/post-a-job",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:22.086101+00:00"
+    },
+    {
+      "url": "https://wellfound.com/cdn-cgi/l/email-protection#e793868b828993a790828b8b8188928983c984888a",
+      "anchor_text": "Contact",
+      "found_on": "https://wellfound.com/recruit/all-features/autopilot",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:22.410713+00:00"
+    },
+    {
+      "url": "https://wellfound.com/cdn-cgi/l/email-protection#c0b4a1aca5aeb480b7a5acaca6afb5aea4eea3afad",
+      "anchor_text": "Contact",
+      "found_on": "https://wellfound.com/recruit/pricing",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:22.678433+00:00"
+    },
+    {
+      "url": "https://wellfound.com/discover",
+      "anchor_text": "Discover",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.726062+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/calm",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.729511+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4889905-software-development-engineer-in-test",
+      "anchor_text": "Software Development Engineer in Test",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.741354+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4940494-senior-product-designer",
+      "anchor_text": "Senior Product Designer",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.744504+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/keebo-1",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.749254+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5027360-senior-software-engineer",
+      "anchor_text": "Senior Software Engineer",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.752847+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/swoop-search-1",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.755813+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/3537464-software-engineer-embedded-systems-cleared",
+      "anchor_text": "Software Engineer - Embedded Systems (Cleared)",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.758882+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/927086-software-engineer-embedded-systems",
+      "anchor_text": "Software Engineer - Embedded Systems",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.763452+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/1583809-software-engineer-backend",
+      "anchor_text": "Software Engineer - Backend",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.768438+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/ashbyhq",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.771474+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5008721-head-of-platform-infrastructure-engineering",
+      "anchor_text": "Head of Platform & Infrastructure Engineering",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.776247+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4995230-support-operations-engineer-namer",
+      "anchor_text": "Support Operations Engineer - NAMER",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.779083+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4881142-demo-engineer",
+      "anchor_text": "Demo Engineer",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.782274+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/klaviyo",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.785418+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4970250-principal-engineer-enterprise-scalability-remote-east-coast-only",
+      "anchor_text": "Principal Engineer, Enterprise Scalability (Remote - East Coast Only)",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.788683+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/moderntreasury",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.791556+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/3852615-software-engineer-infrastructure",
+      "anchor_text": "Software Engineer - Infrastructure",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.794328+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/monte-carlo-data-1",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.797878+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4231328-applied-forward-deployed-engineer-post-sales",
+      "anchor_text": "Applied Forward Deployed Engineer (Post-Sales)",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.801729+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4787336-senior-backend-engineer",
+      "anchor_text": "Senior Backend Engineer",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.804808+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4639961-applied-ai-engineer",
+      "anchor_text": "Applied AI Engineer",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.807651+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/secfix",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.810325+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5008727-gtm-engineer-fresh-grad-india",
+      "anchor_text": "GTM Engineer (Fresh grad, India)",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.813144+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5008726-backend-engineer-gtm-engineering-fresh-grad-india",
+      "anchor_text": "Backend Engineer – GTM Engineering (Fresh grad, India)",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.816744+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4995382-tech-lead",
+      "anchor_text": "Tech Lead",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.819781+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/usepepper",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.822566+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5027338-account-executive-est-cst-clone",
+      "anchor_text": "Account Executive",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.825581+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4970290-full-stack-engineer-storefront-clone",
+      "anchor_text": "Full Stack Engineer, Storefront",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.828416+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4970289-full-stack-engineer-new-verticals-clone",
+      "anchor_text": "Full Stack Engineer, Storefront",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.832669+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/truebill",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.836760+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4985482-team-leader-engineering-financial-connections",
+      "anchor_text": "Team Leader, Engineering - Financial Connections",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.840882+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4901589-creative-project-manager",
+      "anchor_text": "Creative Project Manager",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.843872+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4811731-software-engineer-design-systems",
+      "anchor_text": "Software Engineer, Design Systems",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.846691+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/glacier-2",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.850530+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5027494-senior-business-development-manager-robotics-startup",
+      "anchor_text": "Senior Business Development Manager - robotics startup",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.853596+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5008668-data-and-robotics-operations-analyst-100-remote-latin-america-based",
+      "anchor_text": "Data and Robotics Operations Analyst - 100% remote - Latin America based",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.856634+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4522229-computer-vision-data-engineer-fully-remote-usd-latin-america-based",
+      "anchor_text": "Computer Vision DATA Engineer - Fully Remote USD - Latin America based",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.859303+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/zaya-care-1",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.861990+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5027414-engineering-lead",
+      "anchor_text": "Engineering Lead",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.865772+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/nextdoor",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.868847+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4708012-staff-data-scientist-ads-marketplace",
+      "anchor_text": "Staff Data Scientist - Ads Marketplace",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.871563+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4970246-senior-staff-software-engineer-monetization",
+      "anchor_text": "Senior Staff Software Engineer - Monetization",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.874464+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4851976-designer-search",
+      "anchor_text": "Designer, Search",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.877631+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/tremendous",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.880752+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5027461-senior-customer-success-manager",
+      "anchor_text": "Senior Customer Success Manager",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.883904+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4986226-gtm-engineering-manager",
+      "anchor_text": "GTM Engineering Manager",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.886921+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4855340-gtm-engineer-marketing",
+      "anchor_text": "GTM Engineer, Marketing",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.890380+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/virta-health",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.893485+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4970393-senior-engineer-machine-learning",
+      "anchor_text": "Senior Engineer, Machine Learning",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.897415+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4536719-senior-software-engineer-ii",
+      "anchor_text": "Senior Software Engineer II",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.901024+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4943358-senior-analytics-engineer",
+      "anchor_text": "Senior Analytics Engineer",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.904838+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/constructor-io",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.908117+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4263159-software-engineer-core",
+      "anchor_text": "Software Engineer: Core",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.911269+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4523793-senior-data-scientist",
+      "anchor_text": "Senior Data Scientist",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.915339+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4670736-fullstack-engineer-prospect-data-solutions",
+      "anchor_text": "FullStack Engineer - Prospect Data Solutions",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.919326+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/humaans-1",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.922835+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/2563805-senior-software-engineer-full-stack",
+      "anchor_text": "Senior Software Engineer (Full Stack)",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.926241+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/2451219-senior-product-designer",
+      "anchor_text": "Senior Product Designer",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.929618+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/vitalize-care",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.932767+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4970403-enterprise-solutions-engineer-clinical-ehr-systems",
+      "anchor_text": "Enterprise Solutions Engineer, Clinical & EHR Systems",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.935939+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4970404-enterprise-solutions-engineer-workforce-management-payroll-ukg",
+      "anchor_text": "Enterprise Solutions Engineer, Workforce Management & Payroll (UKG)",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.939427+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4875240-implementation-specialist",
+      "anchor_text": "Implementation Specialist",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.950382+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/tierra-climate",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.955966+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4986213-mba-intern-growth-marketing-content-strategy",
+      "anchor_text": "MBA Intern - Growth Marketing & Content Strategy",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.960122+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4986212-mba-intern-commercial-strategy",
+      "anchor_text": "MBA Intern - Commercial Strategy",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.963202+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4970304-senior-optimization-engineer",
+      "anchor_text": "Senior Optimization Engineer",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.967170+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/p-1-ai",
+      "anchor_text": "",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.970135+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5008756-super-swe-ai-factory",
+      "anchor_text": "Super SWE - AI Factory",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.974434+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5008755-super-swe",
+      "anchor_text": "Super SWE",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.977294+00:00"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4897549-platform-engineer",
+      "anchor_text": "Platform Engineer",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.980504+00:00"
+    },
+    {
+      "url": "https://wellfound.com/remote?page=2",
+      "anchor_text": "2",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.983772+00:00"
+    },
+    {
+      "url": "https://wellfound.com/remote?page=3",
+      "anchor_text": "3",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.986857+00:00"
+    },
+    {
+      "url": "https://wellfound.com/remote?page=4",
+      "anchor_text": "4",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.990726+00:00"
+    },
+    {
+      "url": "https://wellfound.com/remote?page=5",
+      "anchor_text": "5",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.994089+00:00"
+    },
+    {
+      "url": "https://wellfound.com/remote?page=106",
+      "anchor_text": "106",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:23.997401+00:00"
+    },
+    {
+      "url": "https://wellfound.com/remote?page=107",
+      "anchor_text": "107",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.000325+00:00"
+    },
+    {
+      "url": "https://wellfound.com/remote?page=108",
+      "anchor_text": "108",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.003295+00:00"
+    },
+    {
+      "url": "https://wellfound.com/remote?page=213",
+      "anchor_text": "213",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.006940+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/r/backend-engineer",
+      "anchor_text": "Backend Engineer",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.009873+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/r/creative-director",
+      "anchor_text": "Creative Director",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.012770+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/r/data-scientist",
+      "anchor_text": "Data Scientist",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.015880+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/r/designer",
+      "anchor_text": "Designer",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.018703+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/r/devops-engineer",
+      "anchor_text": "Devops Engineer",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.021399+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/r/engineering-manager",
+      "anchor_text": "Engineering Manager",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.023745+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/r/full-stack-engineer",
+      "anchor_text": "Full Stack Engineer",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.026303+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/r/mobile-engineer",
+      "anchor_text": "Mobile Engineer",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.028861+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/r/qa-engineer",
+      "anchor_text": "QA Engineer",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.031814+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/r/security-engineer",
+      "anchor_text": "Security Engineer",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.035361+00:00"
+    },
+    {
+      "url": "https://wellfound.com/role/r/software-architect",
+      "anchor_text": "Software Architect",
+      "found_on": "https://wellfound.com/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.037945+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/collection/415-getting-started",
+      "anchor_text": "Getting Started",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.077978+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/collection/1088-wellfound-reach",
+      "anchor_text": "Wellfound Reach",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.082248+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/collection/420-recruiters",
+      "anchor_text": "Recruiters",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.085160+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/collection/440-job-seekers",
+      "anchor_text": "Job seekers",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.088284+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/collection/451-general",
+      "anchor_text": "General",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.091701+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/418-looking-for-candidates",
+      "anchor_text": "🔎 Looking for Candidates Learn how to start a company profile, source, screen, and hire candidates. 2 articles",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.094101+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/419-looking-for-jobs",
+      "anchor_text": "👀 Looking for Jobs Learn how to start a company profile, source, screen, and hire candidates. 1 article",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.098317+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/1091-recruitercloud-self-serve",
+      "anchor_text": "🪄 Wellfound Reach Supercharged Search 24 articles",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.101975+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/1135-recruitercloud-inbound",
+      "anchor_text": "⚡️ Wellfound Applicants ATS integration to process your applicants in RecruiterCloud. 11 articles",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.105947+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/1092-recruitercloud-autopilot",
+      "anchor_text": "💎 Wellfound Autopilot Let us automate your entire sourcing process. 23 articles",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.108959+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/1189-tips",
+      "anchor_text": "Tips Tips for recruiters and hiring managers 1 article",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.111971+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/423-applicants",
+      "anchor_text": "✔️ Applicants Learn how to review, screen, and manage direct applicants. 13 articles",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.114887+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/424-conversations",
+      "anchor_text": "💬 Messages Follow tips on managing, searching, and messaging candidates from your conversations 11 articles",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.118043+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/425-recruit-pro",
+      "anchor_text": "🏆 Recruit Pro Learn how Recruit Pro plans offer advanced tools to make sourcing and screening easy. 39 articles",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.120947+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/426-source",
+      "anchor_text": "🎯 Source Learn how to find top talent quickly using our powerful sourcing tool. 43 articles",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.123828+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/427-curated",
+      "anchor_text": "⭐ Curated Learn how to use Curated, our vetted candidate service, to find the best talent. 41 articles",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.127375+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/428-job-posts-promotions",
+      "anchor_text": "💼 Job Posts & Promotions Follow the guides to set up and manage your job posts and promotions. 31 articles",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.130892+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/429-company-profile",
+      "anchor_text": "🏢  Company Profile Learn to set up your company profile to provide valuable information to candidates. 17 articles",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.134356+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/430-team-permission-settings",
+      "anchor_text": "👯 Team Permission Settings Follow the guides to adjust and set up your recruiter and admin permissions. 19 articles",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.137701+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/431-subscriptions",
+      "anchor_text": "➰ Subscriptions Learn how to manage subscriptions for job promotions, Curated and Recruit Pro. 14 articles",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.140320+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/432-billing",
+      "anchor_text": "🧾 Billing Follow the guides to help with subscription, payment, and invoice management. 15 articles",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.143104+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/433-settings",
+      "anchor_text": "⚙️ Settings Follow account settings guides for adjusting contact, notifications, & subscriptions. 24 articles",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.145980+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/434-track",
+      "anchor_text": "📒 Track Learn to screen and manage candidates with Track, our built-in ATS. 19 articles",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.149183+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/435-ats-integrations",
+      "anchor_text": "💡 ATS integrations Simplify managing candidates from many sites by setting up an ATS integration. 33 articles",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.152216+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/436-greenhouse",
+      "anchor_text": "Greenhouse Greenhouse ATS Guides 10 articles",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.154946+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/438-lever",
+      "anchor_text": "Lever Lever ATS Guides 10 articles",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.157472+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/437-workable",
+      "anchor_text": "Workable Workable ATS guides 8 articles",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.160112+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/439-ashby",
+      "anchor_text": "Ashby Ashby ATS Guides 7 articles",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.162944+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/443-profiles",
+      "anchor_text": "👤 Profiles Learn how to successfully create, and refine your job profile. 38 articles",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.166830+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/444-messaging-with-companies",
+      "anchor_text": "💬 Messaging with Companies Information on how to message with companies during the screening process. 1 article",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.169795+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/445-searching-for-jobs",
+      "anchor_text": "🔎 Searching for jobs Learn how to search for jobs effectively and stay informed. 7 articles",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.172630+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/446-applying-to-jobs",
+      "anchor_text": "✍ Applying to jobs Provides guides and tips for applying to jobs to help you find your next role. 16 articles",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.176294+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/447-settings",
+      "anchor_text": "⚒️  Settings Follow guides on how to adjust your user settings. 5 articles",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.180796+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/448-tips",
+      "anchor_text": "💡 Tips Strategies for job application and profile improvement. 4 articles",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.184153+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/449-community-guidelines",
+      "anchor_text": "👏 Community guidelines Guidelines for how to engage and support the Wellfound Community. 4 articles",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.187297+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/450-featured",
+      "anchor_text": "🤩 Featured Guides for featured candidates to manage their profiles and applications. 9 articles",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.190234+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/1065-verifications",
+      "anchor_text": "✅ Verifications Guides through our verification process for candidates. 7 articles",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.193857+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/454-account",
+      "anchor_text": "📂 Account Learn how to manage your account settings as  either a recruiter or job seeker. 13 articles",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.198429+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/455-public-profile",
+      "anchor_text": "👤 Public Profile Learn how to manage your public profile. 7 articles",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.202900+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/456-security",
+      "anchor_text": "🔐 Security Learn about security at Wellfound. 15 articles",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.206382+00:00"
+    },
+    {
+      "url": "https://help.wellfound.com/category/457-contact",
+      "anchor_text": "🤙 Contact Details on how to contact Wellfound. 7 articles",
+      "found_on": "https://help.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.209241+00:00"
+    },
+    {
+      "url": "https://wellfound.com/cdn-cgi/l/email-protection#ee9a8f828b809aae998b828288819b808ac08d8183",
+      "anchor_text": "Contact",
+      "found_on": "https://wellfound.com/candidates/remote",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.266654+00:00"
+    },
+    {
+      "url": "https://wellfound.com/cdn-cgi/l/email-protection#93e7f2fff6fde7d3e4f6fffff5fce6fdf7bdf0fcfe",
+      "anchor_text": "Contact",
+      "found_on": "https://wellfound.com/candidates/featured",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.358085+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/l/san-francisco-bay-area",
+      "anchor_text": "San Francisco Bay Area",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.664715+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/l/seattle",
+      "anchor_text": "Seattle",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.703493+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/l/new-york",
+      "anchor_text": "New York",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.706665+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/l/santa-monica",
+      "anchor_text": "Santa Monica",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.709571+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/l/melbourne",
+      "anchor_text": "Melbourne",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.712536+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/l/san-diego",
+      "anchor_text": "San Diego",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.727349+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/l/boston",
+      "anchor_text": "View Salaries",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.730845+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/l/remote-friendly",
+      "anchor_text": "View Salaries",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.734687+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/l/denver",
+      "anchor_text": "View Salaries",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.738445+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/l/los-angeles",
+      "anchor_text": "View Salaries",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.741156+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/l/minneapolis",
+      "anchor_text": "View Salaries",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.743981+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/l/austin",
+      "anchor_text": "View Salaries",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.747922+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/l/chicago",
+      "anchor_text": "View Salaries",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.751596+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/l/london",
+      "anchor_text": "View Salaries",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.754872+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/developer",
+      "anchor_text": "Software Engineer",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.757743+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/mobile_developer",
+      "anchor_text": "Mobile Developer",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.761064+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/android-developer",
+      "anchor_text": "Android Developer",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.764050+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/ios-developer-2",
+      "anchor_text": "iOS Developer",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.767889+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/frontend-developer",
+      "anchor_text": "Frontend Engineer",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.770715+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/backend-developer",
+      "anchor_text": "Backend Engineer",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.773302+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/full-stack-developer-1",
+      "anchor_text": "Full-Stack Engineer",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.775803+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/software-architect-2",
+      "anchor_text": "Software Architect",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.778250+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/machine-learning-engineer-2",
+      "anchor_text": "Machine Learning Engineer",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.781273+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/embedded-engineer",
+      "anchor_text": "Embedded Engineer",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.784572+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/data-engineer",
+      "anchor_text": "Data Engineer",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.787266+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/devops-3",
+      "anchor_text": "DevOps",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.790030+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/engineering-manager-1",
+      "anchor_text": "Engineering Manager",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.792721+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/qa-engineer",
+      "anchor_text": "QA Engineer",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.795806+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/data-scientist-1",
+      "anchor_text": "Data Scientist",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.799133+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/designer",
+      "anchor_text": "Designer",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.802998+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/ui-ux-designer",
+      "anchor_text": "UI/UX Designer",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.805513+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/user-researcher",
+      "anchor_text": "User Researcher",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.808377+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/visual-designer",
+      "anchor_text": "Visual Designer",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.811382+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/creative-director-2",
+      "anchor_text": "Creative Director",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.814264+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/graphic-designer-1",
+      "anchor_text": "Graphic Designer",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.817182+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/product-designer-2",
+      "anchor_text": "Product Designer",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.820040+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/product_manager",
+      "anchor_text": "Product Manager",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.822564+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/operations",
+      "anchor_text": "Operations",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.825808+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/finance-3",
+      "anchor_text": "Finance/Accounting",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.828683+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/human_resources",
+      "anchor_text": "H.R.",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.831880+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/office_manager",
+      "anchor_text": "Office Manager",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.834657+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/recruiter-3",
+      "anchor_text": "Recruiter",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.837279+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/customer-service-5",
+      "anchor_text": "Customer Service",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.840088+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/operations-manager-2",
+      "anchor_text": "Operations Manager",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.842918+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/sales-2",
+      "anchor_text": "Sales",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.845515+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/business-development-4",
+      "anchor_text": "Business Development",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.848258+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/sales-development-3",
+      "anchor_text": "Sales Development Representative",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.851677+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/manager-business-development",
+      "anchor_text": "BD Manager",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.854378+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/sales-manager-3",
+      "anchor_text": "Sales Manager",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.858384+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/customer-success-manager-3",
+      "anchor_text": "Customer Success Manager",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.861096+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/marketing-2",
+      "anchor_text": "Marketing",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.864268+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/growth-hacking-3",
+      "anchor_text": "Growth Hacker",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.867531+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/marketing-manager-2",
+      "anchor_text": "Marketing Manager",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.870771+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/content-creator-1",
+      "anchor_text": "Content Creator",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.873950+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/copywriter-3",
+      "anchor_text": "Copywriter",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.876684+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/social-media-manager-1",
+      "anchor_text": "Social Media Manager",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.880203+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/management-2",
+      "anchor_text": "Management",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.883208+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/ceo-5",
+      "anchor_text": "CEO",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.886009+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/cfo-1",
+      "anchor_text": "CFO",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.888662+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/cmo-1",
+      "anchor_text": "CMO",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.891218+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/coo-2",
+      "anchor_text": "COO",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.893669+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/cto-2",
+      "anchor_text": "CTO",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.897088+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/engineer-1",
+      "anchor_text": "Other Engineering",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.900944+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/hardware_engineer",
+      "anchor_text": "Hardware Engineer",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.903865+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/mechanical-engineer",
+      "anchor_text": "Mechanical Engineer",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.906647+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/systems-engineer-1",
+      "anchor_text": "Systems Engineer",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.909247+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/other",
+      "anchor_text": "Other",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.912040+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/business-analyst-2",
+      "anchor_text": "Business Analyst",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.914915+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/project-manager-2",
+      "anchor_text": "Project Manager",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.918059+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/attorney",
+      "anchor_text": "Attorney",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.920543+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/data-analyst-2",
+      "anchor_text": "Data Analyst",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.923203+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/investor",
+      "anchor_text": "Investor",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.925683+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/limited-partner",
+      "anchor_text": "Limited Partner",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.928413+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/strategic-investor",
+      "anchor_text": "Strategic Investor",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.932270+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/institutional-investor-1",
+      "anchor_text": "Institutional Investor",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.936204+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/venture-debt",
+      "anchor_text": "Venture Debt",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.938745+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/vc",
+      "anchor_text": "VC",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.949271+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/seed-funds",
+      "anchor_text": "Seed Fund",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.955525+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/individual-investor",
+      "anchor_text": "Individual Investor",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.960265+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/angels",
+      "anchor_text": "Angel",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.965726+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/r/founder-4",
+      "anchor_text": "Founder",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.969001+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/net",
+      "anchor_text": ".NET",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.971933+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/adobe-indesign",
+      "anchor_text": "Adobe InDesign",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.974957+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/adobe-photoshop",
+      "anchor_text": "Adobe Photoshop",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.977664+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/airflow",
+      "anchor_text": "Airflow",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.981506+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/amazon-ecs-1",
+      "anchor_text": "Amazon ECS",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.985658+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/amazon-kinesis-1",
+      "anchor_text": "Amazon Kinesis",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.988400+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/amazon-s3",
+      "anchor_text": "Amazon S3",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.991131+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/amazon-sqs",
+      "anchor_text": "Amazon SQS",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.995008+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/android-4",
+      "anchor_text": "Android",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:24.997912+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/ansys-1",
+      "anchor_text": "Ansys",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.000903+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/apache-tomcat",
+      "anchor_text": "Apache Tomcat",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.004546+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/assembly-3",
+      "anchor_text": "Assembly",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.007289+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/autocad",
+      "anchor_text": "Autocad",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.018854+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/aws",
+      "anchor_text": "AWS",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.023882+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/azure",
+      "anchor_text": "Azure",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.026752+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/backbone-1",
+      "anchor_text": "Backbone",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.030013+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/bootstrap",
+      "anchor_text": "Bootstrap",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.033955+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/budgeting",
+      "anchor_text": "Budgeting",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.037592+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/c-2",
+      "anchor_text": "C",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.040654+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/c-1",
+      "anchor_text": "C#",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.043633+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/c",
+      "anchor_text": "C++",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.046850+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/cassandra",
+      "anchor_text": "Cassandra",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.052055+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/celery",
+      "anchor_text": "Celery",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.054934+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/clojure",
+      "anchor_text": "Clojure",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.058161+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/clojurescript-1",
+      "anchor_text": "Clojurescript",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.060789+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/codeigniter",
+      "anchor_text": "Codeigniter",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.074016+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/cron",
+      "anchor_text": "Cron",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.076790+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/d3-js",
+      "anchor_text": "D3.js",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.079579+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/dart",
+      "anchor_text": "Dart",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.086733+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/deep-learning",
+      "anchor_text": "Deep Learning",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.090283+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/digitalocean-2",
+      "anchor_text": "Digital Ocean",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.093417+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/django",
+      "anchor_text": "Django",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.096763+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/docker",
+      "anchor_text": "Docker",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.101676+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/drupal",
+      "anchor_text": "Drupal",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.104820+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/dynamodb",
+      "anchor_text": "DynamoDB",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.107759+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/elastic-search",
+      "anchor_text": "ElasticSearch",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.111724+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/electron-1",
+      "anchor_text": "Electron",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.114922+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/elixir-1",
+      "anchor_text": "Elixir",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.118026+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/ember-js",
+      "anchor_text": "Ember.js",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.121476+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/express-js",
+      "anchor_text": "Express.js",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.124373+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/firebase-2",
+      "anchor_text": "Firebase",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.127265+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/flask",
+      "anchor_text": "Flask",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.130721+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/flutter-7",
+      "anchor_text": "Flutter",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.133638+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/fortran",
+      "anchor_text": "Fortran",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.138041+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/framer-2",
+      "anchor_text": "Framer",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.140890+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/gcp-2",
+      "anchor_text": "GCP",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.144508+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/go-1",
+      "anchor_text": "Go",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.148250+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/gradle",
+      "anchor_text": "Gradle",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.151542+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/graphql",
+      "anchor_text": "GraphQL",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.154130+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/groovy",
+      "anchor_text": "Groovy",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.158010+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/haskell",
+      "anchor_text": "Haskell",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.160909+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/hbase",
+      "anchor_text": "Hbase",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.164088+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/heroku-1",
+      "anchor_text": "Heroku",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.167464+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/hibernate",
+      "anchor_text": "Hibernate",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.171452+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/invision-3",
+      "anchor_text": "Invision",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.174267+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/ionic-3",
+      "anchor_text": "Ionic",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.177281+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/java",
+      "anchor_text": "Java",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.180828+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/javascript",
+      "anchor_text": "Javascript",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.185788+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/jquery",
+      "anchor_text": "jQuery",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.188491+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/jupyter",
+      "anchor_text": "Jupyter",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.191643+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/kafka",
+      "anchor_text": "Kafka",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.195297+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/keras",
+      "anchor_text": "Keras",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.198389+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/kotlin",
+      "anchor_text": "Kotlin",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.201236+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/kubernetes",
+      "anchor_text": "Kubernetes",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.204445+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/laravel",
+      "anchor_text": "Laravel",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.207091+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/lisp",
+      "anchor_text": "Lisp",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.209873+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/lte-1",
+      "anchor_text": "LTE",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.212493+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/lua",
+      "anchor_text": "Lua",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.216033+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/machine-learning-1",
+      "anchor_text": "Machine Learning",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.218920+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/magento-1",
+      "anchor_text": "MAGENTO",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.222914+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/matlab",
+      "anchor_text": "Matlab",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.225546+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/microsoft-visio",
+      "anchor_text": "Microsoft Visio",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.228198+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/mongodb-6",
+      "anchor_text": "MongoDB",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.232441+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/mongoose",
+      "anchor_text": "Mongoose",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.235316+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/mysql-1",
+      "anchor_text": "MySQL",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.238204+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/nagios",
+      "anchor_text": "Nagios",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.240734+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/neo4j",
+      "anchor_text": "Neo4J",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.243297+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/nest-js",
+      "anchor_text": "Nest.Js",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.245523+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/nginx",
+      "anchor_text": "Nginx",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.248260+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/node-js",
+      "anchor_text": "Node.js",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.250988+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/numpy",
+      "anchor_text": "Numpy",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.253759+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/nuxt-js",
+      "anchor_text": "Nuxt.Js",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.256264+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/objective-c",
+      "anchor_text": "Objective-C",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.259157+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/openai-2",
+      "anchor_text": "openAI",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.261827+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/opencv",
+      "anchor_text": "OpenCV",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.264550+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/pandas",
+      "anchor_text": "Pandas",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.267989+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/perl",
+      "anchor_text": "Perl",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.270621+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/php",
+      "anchor_text": "PHP",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.273563+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/postgresql",
+      "anchor_text": "PostgreSQL",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.276340+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/postman-1",
+      "anchor_text": "Postman",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.280170+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/principle",
+      "anchor_text": "Principle",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.283266+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/prometheus-4",
+      "anchor_text": "Prometheus",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.286094+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/prospecting",
+      "anchor_text": "Prospecting",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.288710+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/puppet-1",
+      "anchor_text": "Puppet",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.291715+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/pyspark-1",
+      "anchor_text": "Pyspark",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.295268+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/python",
+      "anchor_text": "Python",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.299548+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/pytorch",
+      "anchor_text": "PyTorch",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.302317+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/qt",
+      "anchor_text": "Qt",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.304912+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/r",
+      "anchor_text": "R",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.308567+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/rabbitmq",
+      "anchor_text": "Rabbitmq",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.311636+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/react-3",
+      "anchor_text": "react",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.315022+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/react-native",
+      "anchor_text": "React Native",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.317909+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/redis",
+      "anchor_text": "Redis",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.320770+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/restful-apis",
+      "anchor_text": "RESTful APIs",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.323722+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/ruby",
+      "anchor_text": "Ruby",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.326284+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/ruby-on-rails-1",
+      "anchor_text": "Ruby on Rails",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.329251+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/rundeck",
+      "anchor_text": "rundeck",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.332569+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/rust",
+      "anchor_text": "Rust",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.335956+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/sas-1",
+      "anchor_text": "SAS",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.339391+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/scala",
+      "anchor_text": "Scala",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.342192+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/scikit-learn-1",
+      "anchor_text": "scikit-learn",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.344901+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/scipy",
+      "anchor_text": "Scipy",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.347864+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/selenium",
+      "anchor_text": "Selenium",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.350779+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/sequelize",
+      "anchor_text": "Sequelize",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.353918+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/sketch",
+      "anchor_text": "Sketch",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.356599+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/solidity",
+      "anchor_text": "Solidity",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.359281+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/solr",
+      "anchor_text": "SOLR",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.362619+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/spark-79",
+      "anchor_text": "Spark",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.365728+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/splunk-1",
+      "anchor_text": "Splunk",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.368541+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/spring",
+      "anchor_text": "Spring",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.371201+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/sql",
+      "anchor_text": "SQL",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.374025+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/sqlalchemy",
+      "anchor_text": "SQLAlchemy",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.376922+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/sqlite",
+      "anchor_text": "SQLite",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.380223+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/svelte-3",
+      "anchor_text": "Svelte",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.383151+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/svn",
+      "anchor_text": "Svn",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.385713+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/swift-2",
+      "anchor_text": "Swift",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.388434+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/swiftui",
+      "anchor_text": "SwiftUI",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.391074+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/sybase-1",
+      "anchor_text": "Sybase",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.393626+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/symfony",
+      "anchor_text": "Symfony",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.396916+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/typescript",
+      "anchor_text": "TypeScript",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.400025+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/unity-1",
+      "anchor_text": "Unity",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.403287+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/unity3d",
+      "anchor_text": "Unity3D",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.406048+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/unreal",
+      "anchor_text": "Unreal",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.408774+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/verilog",
+      "anchor_text": "Verilog",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.412474+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/visual-basic",
+      "anchor_text": "Visual Basic",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.415587+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/vue-2",
+      "anchor_text": "Vue",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.418251+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/web3-js",
+      "anchor_text": "Web3.Js",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.421314+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/webassembly",
+      "anchor_text": "WebAssembly",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.424040+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/webgl",
+      "anchor_text": "WebGL",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.427478+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/webrtc",
+      "anchor_text": "WebRTC",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.431282+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/websockets",
+      "anchor_text": "Websockets",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.435479+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/xamarin-4",
+      "anchor_text": "Xamarin",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.438284+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/xcode",
+      "anchor_text": "Xcode",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.442553+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/zeplin-1",
+      "anchor_text": "Zeplin",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.446753+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/s/zookeeper",
+      "anchor_text": "Zookeeper",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.450415+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/l/vancouver",
+      "anchor_text": "Vancouver",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.453612+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/l/cambridge",
+      "anchor_text": "Cambridge",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.456206+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/l/toronto",
+      "anchor_text": "Toronto",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.459440+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/l/sydney",
+      "anchor_text": "Sydney",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.462540+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/i/blockchain-cryptocurrency-2",
+      "anchor_text": "Blockchain / Cryptocurrency",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.466633+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/i/web-design",
+      "anchor_text": "Web Design",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.470153+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/i/social-media-marketing",
+      "anchor_text": "Social Media Marketing",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.473430+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/i/fintech-2",
+      "anchor_text": "Fin Tech",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.481770+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/i/big-data",
+      "anchor_text": "Big Data",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.487107+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/i/fashion",
+      "anchor_text": "Fashion",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.489725+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/i/retail",
+      "anchor_text": "Retail",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.493110+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/i/manufacturing-1",
+      "anchor_text": "Manufacturing",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.497048+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/i/food-and-beverages",
+      "anchor_text": "Food and Beverages",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.501066+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/i/marketplaces",
+      "anchor_text": "Marketplaces",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.503766+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/i/small-and-medium-businesses",
+      "anchor_text": "Small and Medium Businesses",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.507831+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/i/real-estate-1",
+      "anchor_text": "Real Estate",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.510569+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/i/digital-marketing-5",
+      "anchor_text": "Digital Marketing",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.513685+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/i/advertising",
+      "anchor_text": "Advertising",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.517296+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/i/health-and-wellness",
+      "anchor_text": "Health and Wellness",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.520441+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/i/mobile-application-3",
+      "anchor_text": "Mobile Application",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.523427+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/i/artificial-intelligence",
+      "anchor_text": "Artificial Intelligence",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.526698+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/i/sales-and-marketing-1",
+      "anchor_text": "Sales and Marketing",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.529294+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/i/financial-services-1",
+      "anchor_text": "Financial Services",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.534827+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/i/digital-media",
+      "anchor_text": "Digital Media",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.537733+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/i/web-development",
+      "anchor_text": "Web Development",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.541629+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/i/software",
+      "anchor_text": "Software",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.544595+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/i/education",
+      "anchor_text": "Education",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.548422+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/i/technology",
+      "anchor_text": "Technology",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.551480+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/i/social-media",
+      "anchor_text": "Social Media",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.555760+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/i/b2b",
+      "anchor_text": "B2B",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.563140+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/i/saas",
+      "anchor_text": "SaaS",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.566643+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/i/e-commerce",
+      "anchor_text": "E-Commerce",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.570329+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/i/clean-technology",
+      "anchor_text": "Clean Technology",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.578543+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/i/consumer-internet",
+      "anchor_text": "Consumer Internet",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.583649+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/i/health-care",
+      "anchor_text": "Healthcare",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.586642+00:00"
+    },
+    {
+      "url": "https://wellfound.com/hiring-data/i/mobile-2",
+      "anchor_text": "Mobile",
+      "found_on": "https://wellfound.com/hiring-data",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.589431+00:00"
+    },
+    {
+      "url": "https://status.wellfound.com/uptime",
+      "anchor_text": "View historical uptime.",
+      "found_on": "https://status.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.669672+00:00"
+    },
+    {
+      "url": "https://status.wellfound.com/history",
+      "anchor_text": "← Incident History",
+      "found_on": "https://status.wellfound.com",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:25.672467+00:00"
+    },
+    {
+      "url": "https://wellfound.com/cdn-cgi/l/email-protection#6713060b0209132710020b0b01081209034904080a",
+      "anchor_text": "Contact",
+      "found_on": "https://wellfound.com/recruit/customers",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:26.025505+00:00"
+    },
+    {
+      "url": "https://wellfound.com/cdn-cgi/l/email-protection#2753464b4249536750424b4b41485249430944484a",
+      "anchor_text": "Contact",
+      "found_on": "https://wellfound.com/about",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:26.781997+00:00"
+    },
+    {
+      "url": "https://wellfound.com/join",
+      "anchor_text": "Join",
+      "found_on": "https://wellfound.com/privacy",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:27.930172+00:00"
+    },
+    {
+      "url": "https://wellfound.com/company/wellfound/jobs",
+      "anchor_text": "Jobs",
+      "found_on": "https://wellfound.com/privacy",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:27.942962+00:00"
+    },
+    {
+      "url": "https://wellfound.com/logo",
+      "anchor_text": "Logo",
+      "found_on": "https://wellfound.com/privacy",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:27.950436+00:00"
+    },
+    {
+      "url": "https://wellfound.com/dpa",
+      "anchor_text": "here",
+      "found_on": "https://wellfound.com/privacy",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:27.954015+00:00"
+    },
+    {
+      "url": "https://wellfound.com/cdn-cgi/l/email-protection#94e4e6fde2f5f7edd4e3f1f8f8f2fbe1faf0baf7fbf9",
+      "anchor_text": "[email protected]",
+      "found_on": "https://wellfound.com/privacy",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:27.957100+00:00"
+    },
+    {
+      "url": "https://wellfound.com/cdn-cgi/l/email-protection",
+      "anchor_text": "[email protected]",
+      "found_on": "https://wellfound.com/privacy",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:27.960215+00:00"
+    },
+    {
+      "url": "https://wellfound.com/profile/notifications",
+      "anchor_text": "https://wellfound.com/profile/notifications",
+      "found_on": "https://wellfound.com/privacy",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:27.968641+00:00"
+    },
+    {
+      "url": "https://wellfound.com/unsubscribe",
+      "anchor_text": "Unsubscribe",
+      "found_on": "https://wellfound.com/privacy",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:27.974608+00:00"
+    },
+    {
+      "url": "https://wellfound.com/cdn-cgi/l/email-protection#0474766177774473616868626b716a602a676b69",
+      "anchor_text": "Press",
+      "found_on": "https://wellfound.com/privacy",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:27.978758+00:00"
+    },
+    {
+      "url": "https://wellfound.com/terms/jobs",
+      "anchor_text": "Jobs Terms",
+      "found_on": "https://wellfound.com/terms",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:28.331382+00:00"
+    },
+    {
+      "url": "https://wellfound.com/cdn-cgi/l/email-protection#fd9c9f888e98bd8a9891919b92889399d39e9290",
+      "anchor_text": "[email protected]",
+      "found_on": "https://wellfound.com/terms",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:28.334548+00:00"
+    },
+    {
+      "url": "https://wellfound.com/cdn-cgi/l/email-protection#780c19141d160c380f1d14141e170d161c561b1715",
+      "anchor_text": "[email protected]",
+      "found_on": "https://wellfound.com/terms",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:28.337716+00:00"
+    },
+    {
+      "url": "https://wellfound.com/cdn-cgi/l/email-protection#18686a7d6b6b586f7d74747e776d767c367b7775",
+      "anchor_text": "Press",
+      "found_on": "https://wellfound.com/terms",
+      "match_reason": "job_board:wellfound.com",
+      "discovered_at": "2026-11-10T17:47:28.340508+00:00"
+    }
+  ]
+}

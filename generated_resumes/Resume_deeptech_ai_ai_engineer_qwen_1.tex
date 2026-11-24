@@ -1,0 +1,99 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.0in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Khushi Sharma} \\ \vspace{2pt}
+    \small Bengaluru, India $|$ +91 98765 43210 $|$ \href{mailto:khushi.sharma@example.com}{khushi.sharma@example.com} $|$ \href{https://linkedin.com/in/khushi-sharma}{LinkedIn} $|$ \href{https://github.com/khushi-sharma}{GitHub}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Professional Summary}
+\small{Targeting \textbf{AI Engineer (Qwen)} at \textbf{DeepTech AI}. Full-Stack Software Engineer with 2+ years of experience designing scalable web applications, distributed crawlers, and high-performance microservices. Skilled in Python, TypeScript, React, Next.js, and cloud platforms.}
+
+%-----------SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Core Competencies}{: Tailwind CSS}
+    }}
+\end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Work Experience}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{Full-Stack Software Engineer} & 2024-01 -- Present \\
+      \textit{TechVentures Labs} & \textit{Bengaluru, India} \\
+    \end{tabular*}\vspace{-5pt}
+    \begin{itemize}
+      \item \small{Designed and deployed responsive web applications and REST APIs serving 50k+ monthly active users.}\n      \item \small{Integrated automated test pipelines with pytest and Playwright achieving 88\% test coverage.}\n      \item \small{Collaborated with product teams to translate user feedback into high-velocity release cycles.}\n    \end{itemize}
+  \item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{Software Engineering Intern} & 2023-06 -- 2023-12 \\
+      \textit{Cognitive Solutions} & \textit{Remote} \\
+    \end{tabular*}\vspace{-5pt}
+    \begin{itemize}
+      \item \small{Built data extraction scrapers and automated reporting dashboards for competitive market intelligence.}\n      \item \small{Optimized ETL batch processing pipelines, reducing ingestion run times from 25 minutes to 7 minutes.}\n    \end{itemize}
+\end{itemize}
+
+%-----------PROJECTS-----------
+\section{Key Projects}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \item
+    \textbf{crwlr — Distributed Job Crawling \& Analytics Engine} $|$ \textit{Python, FastAPI, Playwright, SQLite, Next.js, TypeScript}\vspace{-4pt}
+    \begin{itemize}
+      \item \small{Architected an asynchronous multi-board job scraper and crawler handling 10,000+ postings with zero duplicates.}\n      \item \small{Built canonical URL normalizer stripping tracking parameters and resolving cross-board duplicate listings across LinkedIn, Indeed, and Glassdoor.}\n      \item \small{Created real-time reactive Next.js dashboard with full-text search (FTS5) and automated application tracking.}\n    \end{itemize}
+  \item
+    \textbf{AI Job Match \& Tailoring Assistant} $|$ \textit{Python, FastAPI, Gemini API, NLP, React}\vspace{-4pt}
+    \begin{itemize}
+      \item \small{Implemented JD parser extracting core tech competencies and computing semantic match scores against master profile.}\n      \item \small{Automated tailored LaTeX resume generation and dynamic cover letter generation for ATS compliance.}\n    \end{itemize}
+  \item
+    \textbf{High-Throughput Payment Event Processor} $|$ \textit{Python, PostgreSQL, Redis, Docker, REST APIs}\vspace{-4pt}
+    \begin{itemize}
+      \item \small{Engineered idempotent transaction webhook consumer processing 500+ requests/sec with Redis caching.}\n      \item \small{Reduced database query latency by 45\% using indexed compound queries and connection pooling.}\n    \end{itemize}
+\end{itemize}
+
+%-----------EDUCATION-----------
+\section{Education}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{Visvesvaraya Technological University} & 2024 \\
+      \textit{Bachelor of Engineering in Computer Science} & \textit{Bengaluru, India} \\
+    \end{tabular*}\vspace{-5pt}
+\end{itemize}
+
+\end{document}

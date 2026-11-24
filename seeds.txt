@@ -1,0 +1,6 @@
+# Add target websites to crawl (one URL per line)
+# Lines starting with # are comments and will be ignored
+
+https://github.com/about
+https://stripe.com
+https://remoteok.com

@@ -1,0 +1,42 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: crwlr-backend
+    ports:
+      - "8000:8000"   # FastAPI Backend API
+      - "6080:6080"   # noVNC In-Browser Screen Stream
+    shm_size: 2gb     # Prevents Chromium tab crashes in Docker
+    environment:
+      - DISPLAY=:99
+      - RUNNING_IN_DOCKER=1
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+      - ADZUNA_APP_ID=${ADZUNA_APP_ID:-}
+      - ADZUNA_APP_KEY=${ADZUNA_APP_KEY:-}
+    volumes:
+      - ./crwlr.db:/app/crwlr.db
+      - ./profile.json:/app/profile.json
+      - ./generated_resumes:/app/generated_resumes
+      - ./seeds.txt:/app/seeds.txt
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        - NEXT_PUBLIC_API_URL=http://localhost:8000
+        - NEXT_PUBLIC_NOVNC_URL=http://localhost:6080/vnc.html?autoconnect=true&resize=scale
+    container_name: crwlr-frontend
+    ports:
+      - "3000:3000"   # Next.js Web Dashboard
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:8000
+      - NEXT_PUBLIC_NOVNC_URL=http://localhost:6080/vnc.html?autoconnect=true&resize=scale
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  crwlr-data:
